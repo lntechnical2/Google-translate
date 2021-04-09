@@ -7,7 +7,7 @@ BOT_TOKEN = '1384658419:AAGzMrEY1Kx9ZFxDXLZZ60ujDRZPWvoE1ns'
 updater = Updater(BOT_TOKEN,use_context = True )
 
 def start(updater,context):
- updater.message.reply_text('hi iam google translater ')
+ updater.message.reply_text('hi iam google translater /n I can translate any language to kannada /n join for more updates @lntechnical ')
  
 def echo(updater,context):
  usr_msg =updater.message.text
