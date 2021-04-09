@@ -4,7 +4,7 @@ import os
 
 BOT_TOKEN = '1384658419:AAGzMrEY1Kx9ZFxDXLZZ60ujDRZPWvoE1ns'
 
-updater = Updater('BOT_TOKEN',use_context = True )
+updater = Updater(BOT_TOKEN,use_context = True )
 
 def start(updater,context):
  updater.message.reply_text('hi iam google translater ')
