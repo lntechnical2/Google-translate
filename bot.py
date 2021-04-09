@@ -2,7 +2,7 @@ from telegram.ext import Updater,MessageHandler,CommandHandler,Filters
 from google_trans_new import google_translator 
 import os
 
-BOT_TOKEN = os.environ.get('bot_token',None)
+BOT_TOKEN = '1384658419:AAGzMrEY1Kx9ZFxDXLZZ60ujDRZPWvoE1ns'
 
 updater = Updater('BOT_TOKEN',use_context = True )
 
